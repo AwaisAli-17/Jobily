@@ -1,0 +1,14 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.image {
+  width: 90vw;
+  max-width: 600px;
+  min-height: 60vh;
+  display: block;
+}

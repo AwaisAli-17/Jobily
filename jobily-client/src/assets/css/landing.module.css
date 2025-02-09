@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 180px;
+  height: 120px;
+}
+
+.mainImage {
+  width: 50vw;
+  height: 80vh;
+  float: right;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonsDiv {
+  float: right;
+  margin: 4rem;
+}
+
+.titleLine {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+}
+
+.subtitleLine {
+  font-size: 1.2rem;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+}
