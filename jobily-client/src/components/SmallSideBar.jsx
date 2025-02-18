@@ -15,7 +15,7 @@ const SmallSideBar = () => {
           <FaTimes />
         </button>
         <header>
-          <img src={logo} alt="Jobily Logo" className={styles.logo} />
+          <img src={logo} alt="Jobily Logo Alternate" className={styles.logo} />
           <NavLinks />
         </header>
       </div>
