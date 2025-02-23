@@ -29,18 +29,16 @@ const DashboardLayout = () => {
     <DashboardContext.Provider
       value={{ user, showSideBar, isDarkTheme, toogleDarkTheme, toogleSideBar, logoutUser }}
     >
-      <div>
-        <div className={styles.dashbardSections}>
-          <SmallSideBar />
-          <BigSideBar />
-        </div>
+      <main className={styles.dashboardSections}>
+        <SmallSideBar />
+        <BigSideBar />
         <div>
           <NavBar />
           <div className={styles.dashboardPage}>
             <Outlet />
           </div>
         </div>
-      </div>
+      </main>
     </DashboardContext.Provider>
   );
 };

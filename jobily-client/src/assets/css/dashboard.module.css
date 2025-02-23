@@ -1,4 +1,4 @@
-.dashbardSections {
+.dashboardSections {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -10,12 +10,11 @@
 }
 
 @media (min-width: 992px) {
-  .dashbardSections {
-    display: grid;
-    grid-template-columns: 1fr;
+  .dashboardSections {
+    grid-template-columns: auto 1fr;
   }
 
   .dashboardPage {
-    width: 90fr;
+    width: 90%;
   }
 }
