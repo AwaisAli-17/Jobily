@@ -10,6 +10,7 @@
     width: 250px;
     margin-left: -250px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    transition: margin-left 0.3s ease-in-out;
   }
   .content {
     position: sticky;
@@ -27,7 +28,6 @@
 
   .showSidebar {
     margin-left: 0;
-    transition: 0.5s ease-in-out;
   }
 
   .navLinks {
