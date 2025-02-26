@@ -2,6 +2,20 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@mui/material": "^6.4.3"
-  }
+    "@mui/material": "^6.4.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "name": "jobily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
 }

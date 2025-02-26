@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={style.navDiv}>
       <div>
-        <button type="button" onClick={toogleSideBar}>
+        <button type="button" onClick={toogleSideBar} className={styles.toogleButton}>
           <FaAlignLeft />
         </button>
       </div>

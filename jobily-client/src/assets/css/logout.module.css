@@ -9,14 +9,19 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  background: #409e75;
+  color: white;
+  border: transparent;
 }
 
 .dropdown {
   position: absolute;
-  top: 1.5rem;
+  top: 3rem;
   width: 100%;
   text-align: center;
-  background: #c7f2de;
+  background: #409e75;
+  color: white;
+  border-color: transparent;
 }
 
 .hideDropdown {

@@ -19,6 +19,8 @@
   border-color: transparent;
   font-size: 1.75rem;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 .logoText {
@@ -28,6 +30,13 @@
 .btnContainer {
   display: flex;
   align-items: center;
+}
+
+.toogleButton {
+  background: transparent;
+  color: #409e75;
+  font-size: 1.5rem;
+  border: transparent;
 }
 
 @media (min-width: 992px) {

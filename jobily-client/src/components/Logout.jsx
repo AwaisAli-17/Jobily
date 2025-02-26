@@ -19,15 +19,14 @@ const Logout = () => {
           <FaCaretDown />
         </button>
       </div>
-      <div>
-        <button
-          type="button"
-          className={`${showLogout ? styles.dropdown : styles.hideDropdown}`}
-          onClick={logoutUser}
-        >
-          Logout
-        </button>
-      </div>
+
+      <button
+        type="button"
+        className={`${showLogout ? styles.dropdown : styles.hideDropdown}`}
+        onClick={logoutUser}
+      >
+        Logout
+      </button>
     </div>
   );
 };
