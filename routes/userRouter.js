@@ -1,9 +1,10 @@
 import { Router } from "express";
-import { login, register } from "../controllers/userController.js";
+import { getApplicationStats, getCurrentUser, updatedUser } from "../controllers/userController.js";
 
 const router = Router();
 
-router.post("/login", login);
-router.post("/register", register);
+router.get("/current-user", getCurrentUser);
+router.get("/admin/app-stats", getApplicationStats);
+router.patch("/updated-user", updatedUser);
 
 export default router;
